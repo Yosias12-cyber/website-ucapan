@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teks Panjang untuk Tafania</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+      overflow-x: hidden;
+      position: relative;
+    }
+
+    /* Background Ornaments */
+    .background-decor {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      z-index: 0;
+    }
+
+    .background-decor span {
+      position: absolute;
+      display: block;
+      width: 100px;
+      height: 100px;
+      background-color: rgba(255, 255, 255, 0.2);
+      border-radius: 50%;
+      filter: blur(20px);
+    }
+
+    .background-decor span:nth-child(1) { top: 20%; left: 15%; }
+    .background-decor span:nth-child(2) { top: 60%; left: 80%; }
+    .background-decor span:nth-child(3) { top: 80%; left: 30%; }
+    .background-decor span:nth-child(4) { top: 50%; left: 50%; }
+
+    .container {
+      max-width: 800px;
+      width: 100%;
+      background-color: rgba(255, 255, 255, 0.95);
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+      position: relative;
+      z-index: 1;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+      font-size: 2.5em;
+      text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+      margin-bottom: 10px;
+    }
+
+    .long-text h2 {
+      color: #e85a71;
+      font-size: 1.8em;
+      margin-bottom: 15px;
+      text-align: center;
+      position: relative;
+    }
+
+    .long-text h2::after {
+      content: '';
+      width: 100px;
+      height: 4px;
+      background: #e85a71;
+      position: absolute;
+      bottom: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+      border-radius: 2px;
+    }
+
+    .long-text p {
+      color: #555;
+      font-size: 1.2em;
+      line-height: 1.8;
+      text-align: justify;
+      margin-bottom: 20px;
+    }
+
+    .ornament-line {
+      width: 100%;
+      height: 10px;
+      background: url('https://www.toptal.com/designers/subtlepatterns/patterns/diagonal-lines.png');
+      opacity: 0.4;
+      margin: 20px 0;
+    }
+
+    .back-button {
+      display: inline-block;
+      font-size: 1.2em;
+      color: #e85a71;
+      text-decoration: none;
+      background-color: #f3d2d9;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-align: center;
+      cursor: pointer;
+      transition: background 0.3s, transform 0.3s;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .back-button:hover {
+      background-color: #e85a71;
+      color: #fff;
+      transform: translateY(-3px);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Background Decorative Elements -->
+  <div class="background-decor">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <div class="container">
+    <h1>Selamat Wisuda, Tafania!</h1>
+
+    <!-- Decorative Line -->
+    <div class="ornament-line"></div>
+
+    <div class="long-text">
+      <h2>Selamat Wisuda, Tafania!</h2>
+      <p>
+          Hari ini, aku ingin mengucapkan selamat dari dasar hatiku, karena kamu telah meraih pencapaian luar biasa—gelar A.md.Mlog yang selama ini kamu perjuangkan. Ini bukan hanya sebuah gelar, ini adalah simbol dari segala usaha, kesabaran, dan kerja keras yang telah kamu berikan. Gelar ini nggak cuma milik kamu, tapi juga milik orang tua yang selalu ada buat kamu, teman-teman yang selalu support, dan semua orang yang pernah jadi bagian dari perjalanan ini. Tanpa mereka, perjalanan ini pasti nggak bakal semudah ini. Jadi, jangan lupa untuk mengucapin terima kasih ke mereka, ya.
+          <br><br>
+          Inget ya bahwa setiap langkah ke depan adalah kesempatan untuk belajar dan tumbuh lebih baik lagi. Jangan takut untuk mengambil risiko dan menjelajahi hal-hal baru. Setiap pengalaman akan membentuk dirimu menjadi pribadi yang lebih matang dan bijaksana. Jadilah sosok yang berani bermimpi besar dan berusaha mewujudkannya.
+          <br><br>
+          Hari ini adalah hari perayaan, rayakan setiap detik dari pencapaianmu. Nikmati momen ini bersama orang-orang terkasihmu. Buatlah kenangan indah yang akan selalu kamu ingat sepanjang hidupmu. Ini adalah waktu untuk bersyukur atas segala hal baik dalam hidupmu dan untuk semua pencapaian yang akan datang. Maaf ya aku engga ada di situ sama kamu saya yang lain buat ngerayain nya :( . Tapi gapapa ko aku dari sini juga seneng banget, banget-banget malah.
+          <br><br>
+          Di balik semua keberhasilan ini, ada begitu banyak orang yang selalu memberikan dukungan tak terhingga—orang tua yang dengan sabar memberikan cinta tanpa batas, sahabat-sahabat yang selalu ada untukmu, dan dosen-dosen yang menuntunmu dengan penuh dedikasi. Mereka semua bagian dari perjalanan indahmu, dan kamu tak pernah sendirian. Terima kasih mereka patut selalu kamu inget, karena tanpa mereka, perjalanan ini tak akan semudah ini kan?
+          <br><br>
+          Kamu keren banget bisa nyelesain apa yang sudah kamu mulai, bisa dapet apa yang perjuangin. Berjuang susah senengnya selama 4 Tahun, itu keren banget. Jangan takut untuk melangkah lebih jauh ya, sayang. Setiap langkah baru yang kamu ambil itu peluang untuk tumbuh, belajar, dan menemukan potensi diri yang lebih besar. Kamu punya keberanian untuk bermimpi, dan lebih dari itu, kamu punya kekuatan untuk mewujudkannya. Aku percaya pada setiap langkah yang akan kamu ambil, karena aku tahu kamu mampu mewujudkan keajaiban-keajaiban kecil dalam hidup ini.
+          <br><br>
+          Selamat wisuda, Sayang. Gelar ini adalah bukti dari segala ketekunan dan cinta yang telah kamu curahkan. Semoga setiap langkahmu di masa depan dipenuhi dengan keberhasilan, kebahagiaan, dan cinta yang tak terbatas. Aku yakin kamu akan terus menjadi inspirasi bagi dunia, dan aku akan selalu berada di sini, mencintaimu, dan mendukungmu.
+          <br><br>
+          Sekali lagi selamat ya sayang, I love you.
+      </p>
+    </div>
+
+    <!-- Decorative Line -->
+    <div class="ornament-line"></div>
+
+    <div class="back-button" onclick="window.location.href='index.html'">Kembali ke Halaman Utama</div>
+  </div>
+
+</body>
+</html>
